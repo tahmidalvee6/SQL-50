@@ -1,3 +1,4 @@
+
 SELECT v.customer_id, COUNT(customer_id) AS count_no_trans
 FROM VIsits v
 LEFT JOIN Transactions t
